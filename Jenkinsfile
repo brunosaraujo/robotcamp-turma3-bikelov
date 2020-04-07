@@ -16,7 +16,7 @@ pipeline {
          steps {
             echo 'Executando testes de regrassão'
             sh 'robot -d ./log -e todo tests/'
-            robot 'log'
+            robot otherFiles: '**/*.png', outputPath: 'log'
          }
       }
       stage('UAT') {
