@@ -11,7 +11,7 @@ ${BASE_URL}     https://bikelov-anunciante.herokuapp.com
 
 *** Keywords ***
 Start Session
-    Open Browser                    about:blank      chrome
+    Open Browser                    about:blank      headlesschrome
     Set Selenium Implicit Wait      5
     # Sempre verificar a resolução minima da tela e passar como parametro. E quando rodamos em headless precisamos e um tamanho não tem como maximizar
     Set Window Size                 1440    900
