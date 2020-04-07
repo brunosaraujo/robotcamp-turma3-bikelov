@@ -13,9 +13,8 @@ Test Teardown    End Test
 
 *** Test Cases ***
 Receber pedido de reserva
-    [tags] todo
+    [tags]      todo
     Dado que estou logado como "brunoaraujo@papito.io"
     E tenmho anúncios cadastrados
     Quando o "let@gmail.com" solicita uma reserva para o meiu anúncio
     Então devo ver esta solicitação no meu dashboard
-
