@@ -18,7 +18,7 @@ pipeline {
             sh 'robot -d ./log -e todo tests/'
          }
          post {
-            alwaya {
+            always {
                robot otherFiles: '**/*.png', outputPath: 'log'
             }
          }

@@ -21,7 +21,7 @@ ${no_brand}    {"thumb": "elleven.jpg", "name": "Elleven Rocker 26 Marchas", "br
 
 # Quando o Robot rodar esses testes cases ele vai levar em consideração o Test Template, que é quem chama a keyword dos testes.
 *** Test Cases ***      bike           alert
-Sem foto no anúncio     ${no_thumb}    Precisamos de uma foto para o seu anúncio!
+Sem foto no anúncio     ${no_thumb}    Precisamos de uma foto para o seu anuncio!
 Não informa o nome      ${no_name}     Informe a descrição do anúncio!
 Não informa a marca     ${no_brand}    Informe a marca da sua Bike :)
 
